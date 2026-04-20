@@ -1,0 +1,28 @@
+name: advanced_calculator
+description: "Advanced Mobile Calculator project for Lab 3."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # Các thư viện bắt buộc cho Lab 3
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  math_expressions: ^2.4.0
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
